@@ -8,6 +8,7 @@ class TestDatasetLoading(unittest.TestCase):
     sub = rdfuri.Node("http://test.com/123", rdfuri.NodeType.XID)
     sub2 = rdfuri.Node("http://test.com/456", rdfuri.NodeType.XID)
     pred = rdfuri.Node("http://test.com/friend", rdfuri.NodeType.PRED)
+    pred2 = rdfuri.Node("http://test.com/friend2", rdfuri.NodeType.PRED)
     obj = rdfuri.Literal("literal data", "xs:string")
 
     def test_triple(self):
@@ -49,3 +50,15 @@ class TestDatasetLoading(unittest.TestCase):
         data.triple(self.sub, self.pred, rdfuri.Literal("literal data2", "xs:string"))
         data.triple(self.sub, self.pred, rdfuri.Literal("literal data3", "xs:string"))
         dgraphapi.mutate_add_dataset(data)
+
+    def test_clear(self):
+        data = dataset.Dataset()
+        data.triple(self.sub, self.pred, self.obj)
+        data.triple(self.sub, self.pred, rdfuri.Literal("literal data2", "xs:string"))
+        data.triple(self.sub, self.pred, rdfuri.Literal("literal data3", "xs:string"))
+        data.triple(self.sub, self.pred2, self.obj)
+        data.triple(self.sub2, self.pred, self.obj)
+        data.triple(self.sub2, self.pred, rdfuri.Literal("literal data2", "xs:string"))
+        data.triple(self.sub2, self.pred, rdfuri.Literal("literal data3", "xs:string"))
+        data.triple(self.sub2, self.pred2, self.obj)
+        data.clear()

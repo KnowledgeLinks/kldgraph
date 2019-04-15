@@ -55,3 +55,15 @@ class Dataset(dict):
                     except AttributeError:
                         pass
         return True
+
+    def clear(self):
+        """
+        cycles through the dictionary object to ensure all circular reference are removed
+        :return: None
+        """
+        for subj, pred_ref in self.items():
+            for pred in pred_ref.keys():
+                self[subj][pred].clear()
+            self[subj].clear()
+        super().clear()
+
