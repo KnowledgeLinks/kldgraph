@@ -1,0 +1,234 @@
+<http://id.loc.gov/vocabulary/carriers/gs> <http://www.w3.org/2000/01/rdf-schema#label> "slide"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/mo> <http://www.w3.org/2000/01/rdf-schema#label> "film roll"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sg> <http://id.loc.gov/ontologies/bibframe/code> "sg" .
+<http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/vf> <http://id.loc.gov/ontologies/bibframe/code> "vf" .
+<http://id.loc.gov/vocabulary/carriers/hb> <http://id.loc.gov/ontologies/bibframe/code> "hb" .
+<http://id.loc.gov/vocabulary/carriers/ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/nc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/gf> <http://id.loc.gov/ontologies/bibframe/code> "gf" .
+<http://id.loc.gov/vocabulary/carriers/ch> <http://www.w3.org/2000/01/rdf-schema#label> "computer tape reel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/he> <http://id.loc.gov/ontologies/bibframe/code> "he" .
+<http://id.loc.gov/vocabulary/carriers/se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://knowledgelinks.io/ns/bibcat/MicroformCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/ck> <http://id.loc.gov/ontologies/bibframe/code> "ck" .
+<http://id.loc.gov/vocabulary/carriers/hf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/mo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://knowledgelinks.io/ns/bibcat/AudioCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/ss> <http://id.loc.gov/ontologies/bibframe/code> "ss" .
+<http://id.loc.gov/vocabulary/carriers/st> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/sg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/zu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ez> <http://www.w3.org/2000/01/rdf-schema#label> "other stereographic carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/sd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://knowledgelinks.io/ns/bibcat/ComputerCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/zu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnspecifiedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cz> <http://id.loc.gov/ontologies/bibframe/code> "cz" .
+<http://id.loc.gov/vocabulary/carriers/ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/cr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/sq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/pz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/zu> <http://www.w3.org/2000/01/rdf-schema#label> "unspecified"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cd> <http://www.w3.org/2000/01/rdf-schema#label> "computer disc"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/ce> <http://id.loc.gov/ontologies/bibframe/code> "ce" .
+<http://id.loc.gov/vocabulary/carriers/mz> <http://www.w3.org/2000/01/rdf-schema#label> "other projected carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nr> <http://id.loc.gov/ontologies/bibframe/code> "nr" .
+<http://id.loc.gov/vocabulary/carriers/hz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/pp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroscopicCarrierr> .
+<http://id.loc.gov/vocabulary/carriers/ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/mc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/nc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/nz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/pz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroscopicCarrierr> .
+<http://id.loc.gov/vocabulary/carriers/ch> <http://id.loc.gov/ontologies/bibframe/code> "ch" .
+<http://id.loc.gov/vocabulary/carriers/pp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ss> <http://www.w3.org/2000/01/rdf-schema#label> "audiocassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/gs> <http://id.loc.gov/ontologies/bibframe/code> "gs" .
+<http://id.loc.gov/vocabulary/carriers/nz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/st> <http://id.loc.gov/ontologies/bibframe/code> "st" .
+<http://id.loc.gov/vocabulary/carriers/vr> <http://id.loc.gov/ontologies/bibframe/code> "vr" .
+<http://id.loc.gov/vocabulary/carriers/gf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/gd> <http://id.loc.gov/ontologies/bibframe/code> "gd" .
+<http://id.loc.gov/vocabulary/carriers/hz> <http://id.loc.gov/ontologies/bibframe/code> "hz" .
+<http://id.loc.gov/vocabulary/carriers/cf> <http://www.w3.org/2000/01/rdf-schema#label> "computer tape cassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nz> <http://www.w3.org/2000/01/rdf-schema#label> "other unmediated carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/StereographicCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gc> <http://id.loc.gov/ontologies/bibframe/code> "gc" .
+<http://id.loc.gov/vocabulary/carriers/mo> <http://id.loc.gov/ontologies/bibframe/code> "mo" .
+<http://id.loc.gov/vocabulary/carriers/nn> <http://www.w3.org/2000/01/rdf-schema#label> "flipchart"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/ck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/mc> <http://www.w3.org/2000/01/rdf-schema#label> "film cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/ComputerCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Computer carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/na> <http://www.w3.org/2000/01/rdf-schema#label> "roll"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/cd> <http://id.loc.gov/ontologies/bibframe/code> "cd" .
+<http://id.loc.gov/vocabulary/carriers/hh> <http://id.loc.gov/ontologies/bibframe/code> "hh" .
+<http://id.loc.gov/vocabulary/carriers/ha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/nn> <http://id.loc.gov/ontologies/bibframe/code> "nn" .
+<http://id.loc.gov/vocabulary/carriers/hc> <http://id.loc.gov/ontologies/bibframe/code> "hc" .
+<http://id.loc.gov/vocabulary/carriers/hg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/mf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/StereographicCarrier> .
+<http://id.loc.gov/vocabulary/carriers/hj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/hj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hj> <http://www.w3.org/2000/01/rdf-schema#label> "microfilm roll"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nc> <http://id.loc.gov/ontologies/bibframe/code> "nc" .
+<http://id.loc.gov/vocabulary/carriers/se> <http://id.loc.gov/ontologies/bibframe/code> "se" .
+<http://id.loc.gov/vocabulary/carriers/vf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/VideoCarrier> .
+<http://id.loc.gov/vocabulary/carriers/no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/nb> <http://www.w3.org/2000/01/rdf-schema#label> "sheet"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cb> <http://id.loc.gov/ontologies/bibframe/code> "cb" .
+<http://id.loc.gov/vocabulary/carriers/gd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/es> <http://www.w3.org/2000/01/rdf-schema#label> "stereograph disc"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/eh> <http://id.loc.gov/ontologies/bibframe/code> "eh" .
+<http://id.loc.gov/vocabulary/carriers/he> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/pp> <http://www.w3.org/2000/01/rdf-schema#label> "microscope slide"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nc> <http://www.w3.org/2000/01/rdf-schema#label> "volume"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/es> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hd> <http://www.w3.org/2000/01/rdf-schema#label> "microfilm reel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hh> <http://www.w3.org/2000/01/rdf-schema#label> "microfilm slip"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/ez> <http://id.loc.gov/ontologies/bibframe/code> "ez" .
+<http://id.loc.gov/vocabulary/carriers/si> <http://id.loc.gov/ontologies/bibframe/code> "si" .
+<http://id.loc.gov/vocabulary/carriers/sz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/VideoCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vd> <http://id.loc.gov/ontologies/bibframe/code> "vd" .
+<http://id.loc.gov/vocabulary/carriers/na> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/na> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/mo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/gt> <http://id.loc.gov/ontologies/bibframe/code> "gt" .
+<http://id.loc.gov/vocabulary/carriers/ce> <http://www.w3.org/2000/01/rdf-schema#label> "computer disc cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/mf> <http://www.w3.org/2000/01/rdf-schema#label> "film cassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/vz> <http://id.loc.gov/ontologies/bibframe/code> "vz" .
+<http://id.loc.gov/vocabulary/carriers/ha> <http://id.loc.gov/ontologies/bibframe/code> "ha" .
+<http://id.loc.gov/vocabulary/carriers/cd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hz> <http://www.w3.org/2000/01/rdf-schema#label> "other microform carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/vc> <http://www.w3.org/2000/01/rdf-schema#label> "video cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/he> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/mz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vd> <http://www.w3.org/2000/01/rdf-schema#label> "videodisc"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hj> <http://id.loc.gov/ontologies/bibframe/code> "hj" .
+<http://id.loc.gov/vocabulary/carriers/ck> <http://www.w3.org/2000/01/rdf-schema#label> "computer card"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/AudioCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Audio carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/gc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hg> <http://www.w3.org/2000/01/rdf-schema#label> "microopaque"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/MicroformCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Microform carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/pz> <http://id.loc.gov/ontologies/bibframe/code> "pz" .
+<http://id.loc.gov/vocabulary/carriers/nr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/mc> <http://id.loc.gov/ontologies/bibframe/code> "mc" .
+<http://id.loc.gov/vocabulary/carriers/sd> <http://www.w3.org/2000/01/rdf-schema#label> "audio disc"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/no> <http://www.w3.org/2000/01/rdf-schema#label> "card"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/no> <http://id.loc.gov/ontologies/bibframe/code> "no" .
+<http://id.loc.gov/vocabulary/carriers/cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cz> <http://www.w3.org/2000/01/rdf-schema#label> "other computer carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/zu> <http://id.loc.gov/ontologies/bibframe/code> "zu" .
+<http://id.loc.gov/vocabulary/carriers/cb> <http://www.w3.org/2000/01/rdf-schema#label> "computer chip cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/ch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/sz> <http://id.loc.gov/ontologies/bibframe/code> "sz" .
+<http://id.loc.gov/vocabulary/carriers/mc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/VideoCarrier> .
+<http://id.loc.gov/vocabulary/carriers/ca> <http://www.w3.org/2000/01/rdf-schema#label> "computer tape cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nz> <http://id.loc.gov/ontologies/bibframe/code> "nz" .
+<http://id.loc.gov/vocabulary/carriers/eh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/StereographicCarrier> .
+<http://id.loc.gov/vocabulary/carriers/sq> <http://id.loc.gov/ontologies/bibframe/code> "sq" .
+<http://id.loc.gov/vocabulary/carriers/pz> <http://www.w3.org/2000/01/rdf-schema#label> "other microscopic carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nb> <http://id.loc.gov/ontologies/bibframe/code> "nb" .
+<http://id.loc.gov/vocabulary/carriers/nn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/hb> <http://www.w3.org/2000/01/rdf-schema#label> "microfilm cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sq> <http://www.w3.org/2000/01/rdf-schema#label> "audio roll"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sd> <http://id.loc.gov/ontologies/bibframe/code> "sd" .
+<http://id.loc.gov/vocabulary/carriers/ca> <http://id.loc.gov/ontologies/bibframe/code> "ca" .
+<http://id.loc.gov/vocabulary/carriers/mf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/es> <http://id.loc.gov/ontologies/bibframe/code> "es" .
+<http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Unmediated carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hc> <http://www.w3.org/2000/01/rdf-schema#label> "microfilm cassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/nr> <http://www.w3.org/2000/01/rdf-schema#label> "object"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/mf> <http://id.loc.gov/ontologies/bibframe/code> "mf" .
+<http://id.loc.gov/vocabulary/carriers/vf> <http://www.w3.org/2000/01/rdf-schema#label> "videocassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/si> <http://www.w3.org/2000/01/rdf-schema#label> "sound track reel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/vc> <http://id.loc.gov/ontologies/bibframe/code> "vc" .
+<http://knowledgelinks.io/ns/bibcat/UnspecifiedCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/gd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/ss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/hf> <http://id.loc.gov/ontologies/bibframe/code> "hf" .
+<http://id.loc.gov/vocabulary/carriers/ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vr> <http://www.w3.org/2000/01/rdf-schema#label> "videotape reel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sg> <http://www.w3.org/2000/01/rdf-schema#label> "audio cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/eh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/nn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hd> <http://id.loc.gov/ontologies/bibframe/code> "hd" .
+<http://id.loc.gov/vocabulary/carriers/nb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/UnmediatedCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gc> <http://www.w3.org/2000/01/rdf-schema#label> "filmstrip cartridge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cr> <http://id.loc.gov/ontologies/bibframe/code> "cr" .
+<http://id.loc.gov/vocabulary/carriers/mz> <http://id.loc.gov/ontologies/bibframe/code> "mz" .
+<http://id.loc.gov/vocabulary/carriers/cd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/gd> <http://www.w3.org/2000/01/rdf-schema#label> "filmslip"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/se> <http://www.w3.org/2000/01/rdf-schema#label> "audio cylinder"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/eh> <http://www.w3.org/2000/01/rdf-schema#label> "stereograph card"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/StereographicCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://knowledgelinks.io/ns/bibcat/UnspecifiedCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Unspecified carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/mz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/ha> <http://www.w3.org/2000/01/rdf-schema#label> "aperture card"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/sz> <http://www.w3.org/2000/01/rdf-schema#label> "other audio carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/VideoCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Video carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/st> <http://www.w3.org/2000/01/rdf-schema#label> "audiotape reel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/gs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://knowledgelinks.io/ns/bibcat/MicroscopicCarrierr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/hh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/ck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://knowledgelinks.io/ns/bibcat/StereographicCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Stereographic carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/gt> <http://www.w3.org/2000/01/rdf-schema#label> "overhead transparency"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hg> <http://id.loc.gov/ontologies/bibframe/code> "hg" .
+<http://id.loc.gov/vocabulary/carriers/pp> <http://id.loc.gov/ontologies/bibframe/code> "pp" .
+<http://id.loc.gov/vocabulary/carriers/gc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> .
+<http://id.loc.gov/vocabulary/carriers/se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/st> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/he> <http://www.w3.org/2000/01/rdf-schema#label> "microfiche"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/gf> <http://www.w3.org/2000/01/rdf-schema#label> "filmstrip"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://knowledgelinks.io/ns/bibcat/VideoCarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/CarrierGroup> .
+<http://id.loc.gov/vocabulary/carriers/cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/vd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/VideoCarrier> .
+<http://id.loc.gov/vocabulary/carriers/ch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/ComputerCarrier> .
+<http://knowledgelinks.io/ns/bibcat/ProjectedImageCarrier> <http://www.w3.org/2000/01/rdf-schema#label> "Projected image carriers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/cr> <http://www.w3.org/2000/01/rdf-schema#label> "online resource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/MicroformCarrier> .
+<http://id.loc.gov/vocabulary/carriers/cf> <http://id.loc.gov/ontologies/bibframe/code> "cf" .
+<http://id.loc.gov/vocabulary/carriers/si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/hf> <http://www.w3.org/2000/01/rdf-schema#label> "microfiche cassette"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://id.loc.gov/vocabulary/carriers/hh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Carrier> .
+<http://id.loc.gov/vocabulary/carriers/si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/VideoCarrier> .
+<http://id.loc.gov/vocabulary/carriers/na> <http://id.loc.gov/ontologies/bibframe/code> "na" .
+<http://id.loc.gov/vocabulary/carriers/sq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowledgelinks.io/ns/bibcat/AudioCarrier> .
+<http://id.loc.gov/vocabulary/carriers/vz> <http://www.w3.org/2000/01/rdf-schema#label> "other video carrier"^^<http://www.w3.org/2001/XMLSchema#string> .
+
