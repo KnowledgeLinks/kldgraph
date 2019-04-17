@@ -1,13 +1,17 @@
-from kldgraph import rdfuri
+from kldgraph import rdfuri, consumer
 
 
 class BatchProcessor:
+    """
+    Records the item count and sends the data to BatchConsumer once the threshold is met.
+    """
 
-    def __init__(self, dataset, batch_consumer, batch_size=10000):
+    def __init__(self, dataset, batch_consumer=None, batch_size=10000):
         self.dataset = dataset
         self.batch_size = batch_size
         self.count = 0
-        self.batch_consumer = batch_consumer
+        self.total_count = 0
+        self.batch_consumer = batch_consumer if batch_consumer else consumer.BatchConsumer(self.dataset)
 
     def increment(self):
         """
@@ -16,6 +20,7 @@ class BatchProcessor:
         :return: None
         """
         self.count += 1
+        self.total_count += 1
         self.test_szie()
 
     def test_size_send(self):
@@ -27,5 +32,4 @@ class BatchProcessor:
         """
         if self.count >= self.batch_size:
             self.batch_consumer.send()
-            self.dataset.clear_all()
-            rdfuri.Node.clear_all_registries()
+            self.count = 0
