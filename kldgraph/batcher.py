@@ -21,7 +21,7 @@ class BatchProcessor:
         """
         self.count += 1
         self.total_count += 1
-        self.test_szie()
+        self.test_size_send()
 
     def test_size_send(self):
         """

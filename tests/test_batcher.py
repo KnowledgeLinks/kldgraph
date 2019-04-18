@@ -25,5 +25,14 @@ class BatchProcessorTestCase(unittest.TestCase):
         result = batch_consumer.send()
         self.assertFalse(data)
 
-
-
+    def test_batch(self):
+        dgraphapi.drop_all()
+        data = dataset.Dataset()
+        processor = batcher.BatchProcessor(data, batch_size=10)
+        batch_count = 0
+        for i in range(1, 100):
+            data.triple(self.sub, self.pred, rdfuri.Literal("literal data-%s" % i, "xs:string"))
+            processor.increment()
+            if processor.count == 0:
+                batch_count += 1
+        self.assertTrue(batch_count > 4)
