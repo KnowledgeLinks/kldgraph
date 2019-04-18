@@ -6,6 +6,7 @@ from kldgraph import dgraphapi
 
 
 class NodeType(Enum):
+    ALL = 0
     XID = 1
     UID = 2
     NS = 3
@@ -87,11 +88,15 @@ class NodeRegistryMeta(type):
 
     @classmethod
     def clear_registry(mcs, node_type):
-        mcs._registry[node_type].clear()
+        if node_type == NodeType.ALL:
+            for reg in mcs._registry.values():
+                reg.clear()
+        else:
+            mcs._registry[node_type].clear()
 
 
-# class Node(metaclass=NodeRegistryMeta):
-class Node:
+class Node(metaclass=NodeRegistryMeta):
+    # class Node:
     __slots__ = ['xid', 'uid', 'bid', 'hash_val', 'node_type', 'dgraph', 'not_looked_up']
 
     def __init__(self, value=None, node_type=None):
@@ -142,6 +147,14 @@ class Node:
             self.uid = dgraphapi.get_uid_for_xid(self.xid)
             self.dgraph = add_signs(self.uid)
             self.not_looked_up = False
+
+    @classmethod
+    def clear_registry(cls, node_type):
+        type(cls).clear_registry(node_type)
+
+    @classmethod
+    def clear_all_registries(cls):
+        type(cls).clear_registry(NodeType.ALL)
 
 
 def add_signs(value):
